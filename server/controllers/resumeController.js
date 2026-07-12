@@ -1,10 +1,8 @@
-import imageKit from "../configs/imagekit.js";
+import imageKit from "../configs/imageKit.js";
 import upload from "../configs/multer.js";
 import Resume from "../models/Resume.js";
 import fs from 'fs'
 // Controller for creating a new resume
-
-
 // POST: /api/resumes/create
 export const createResume = async (req, res) => {
     try {
